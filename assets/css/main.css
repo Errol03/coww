@@ -606,6 +606,11 @@ button:disabled,
   padding: 1rem;
   margin-bottom: 20px;
 }
+.columns.double .column:hover {
+  background-color: #d3bf94;
+  box-shadow: 0 14px 28px rgba(131, 125, 114, 0.25), 0 5px 8px #e6e6e6;
+  transition: 0.5s;
+}
 #contact .column {
   padding: 3.5em 0 1.5em 0;
   padding-left: 3.5em;
@@ -1885,7 +1890,7 @@ pre {
   justify-content: center !important;
   position: relative;
   max-width: 50%;
-  margin-bottom: 1rem !important;
+  margin-bottom: 2rem !important;
 }
 .mt-2 {
   margin-top: 2rem;
